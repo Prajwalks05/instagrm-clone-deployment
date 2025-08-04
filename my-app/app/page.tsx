@@ -10,13 +10,13 @@ export default function AppShowcase() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   const portraitScreenshots = [
-    "/signup.jpg",
-    "/signin.jpg",
-    "/homescreen.jpg",
-    "/upload.jpg",
-    "/storyview.jpg",
-    "/detailscreen.jpg",
-    "/profile.jpg"
+    "/signup.jpg?1",
+    "/signin.jpg?2",
+    "/homescreen.jpg?3",
+    "/upload.jpg?4",
+    "/storyview.jpg?5",
+    "/detailscreen.jpg?6",
+    "/profile.jpg?7"
   ]
 
   return (
