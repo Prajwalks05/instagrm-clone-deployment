@@ -24,9 +24,6 @@ export default function AppShowcase() {
           <div className="flex items-center gap-2">
             <span className="font-medium text-lg">AppStore</span>
           </div>
-          <nav>
-            <ul className="flex gap-6"></ul>
-          </nav>
         </div>
       </header>
 
@@ -38,14 +35,9 @@ export default function AppShowcase() {
               Instagram Clone
             </h1>
             <div className="flex items-center gap-1 mb-4">
-              {Array(5)
-                .fill(null)
-                .map((_, i) => (
-                  <Star
-                    key={i}
-                    className="h-5 w-5 fill-yellow-400 text-yellow-400"
-                  />
-                ))}
+              {Array(5).fill(null).map((_, i) => (
+                <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+              ))}
               <span className="ml-2 text-sm text-gray-600">5.0 (1.2k Reviews)</span>
             </div>
             <p className="text-lg text-gray-600 mb-8">
@@ -98,10 +90,8 @@ export default function AppShowcase() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center gap-2">
-              <div className="flex items-center gap-2">
-                <div className="h-10 w-10 rounded-xl overflow-hidden bg-white"></div>
-                <span className="font-medium text-lg text-gray-800">AppStore</span>
-              </div>
+              <div className="h-10 w-10 rounded-xl overflow-hidden bg-white"></div>
+              <span className="font-medium text-lg text-gray-800">AppStore</span>
             </div>
           </div>
         </div>
