@@ -34,18 +34,24 @@ export default function AppShowcase() {
       <section className="container mx-auto px-4 py-12 md:py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">Instagram Clone</h1>
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">
+              Instagram Clone
+            </h1>
             <div className="flex items-center gap-1 mb-4">
               {Array(5)
                 .fill(null)
                 .map((_, i) => (
-                  <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                  <Star
+                    key={i}
+                    className="h-5 w-5 fill-yellow-400 text-yellow-400"
+                  />
                 ))}
               <span className="ml-2 text-sm text-gray-600">5.0 (1.2k Reviews)</span>
             </div>
             <p className="text-lg text-gray-600 mb-8">
-              Experience the next generation of mobile applications with our innovative solution. Designed with user
-              experience in mind, our app delivers exceptional performance and stunning visuals similar to Instagram.
+              Experience the next generation of mobile applications with our innovative solution.
+              Designed with user experience in mind, our app delivers exceptional performance and
+              stunning visuals similar to Instagram.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
