@@ -7,11 +7,13 @@ import { Button } from "@/components/ui/button"
 
 export default function AppShowcase() {
   const portraitScreenshots = [
-    "/screenshots/portrait/login.png",
-    "/screenshots/portrait/search.png",
-    "/screenshots/portrait/favourite.png",
-    "/screenshots/portrait/home.png",
-    "/screenshots/portrait/profile.png",
+    "/signup.jpg",
+    "/signin.jpg",
+    "/detailscreen.jpg",
+    "/upload.jpg",
+    "/storyview.jpg",
+    "/upload.jpg",
+    "/profile.jpg"
   ]
 
   return (
@@ -33,7 +35,7 @@ export default function AppShowcase() {
       <section className="container mx-auto px-4 py-12 md:py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">Primewalls</h1>
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">Instagram Clone</h1>
             <div className="flex items-center gap-1 mb-4">
               {Array(5)
                 .fill(null)
@@ -44,11 +46,11 @@ export default function AppShowcase() {
             </div>
             <p className="text-lg text-gray-600 mb-8">
               Experience the next generation of mobile applications with our innovative solution. Designed with user
-              experience in mind, our app delivers exceptional performance and stunning visuals.
+              experience in mind, our app delivers exceptional performance and stunning visuals similiar to Instagram
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://drive.google.com/file/d/1HIhyqHv-Jmfz41wdjw1QlQA7X-zHtN7g/view"
+                href="https://drive.google.com/file/d/1GchVWLKhy0mD9YWjFwUV9K6ypXEj44Hp/view"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -56,20 +58,11 @@ export default function AppShowcase() {
                   Download for Android
                 </Button>
               </a>
-              <a
-                href="https://drive.google.com/file/d/1tCF27u_KJEXEAJnP2-Iy_T9rZ0-QeWW-/view"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800">
-                  Download For Windows
-                </Button>
-              </a>
             </div>
           </div>
           <div className="flex justify-center">
             <Image
-              src="/homescreen.png"
+              src="/homescreen.jpg"
               alt="App Screenshot"
               width={300}
               height={600}
@@ -91,9 +84,7 @@ export default function AppShowcase() {
             </div>
           </div>
           <h2 className="text-3xl font-bold mb-4">Ready to Experience the App?</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-            Download our app now and join thousands of satisfied users who have transformed their mobile experience.
-          </p>
+          <h2 className="text-3xl font-bold mb-4">Note : This is not a real Instagram app it is a FLutter clone</h2>
         </div>
       </section>
 
@@ -104,13 +95,10 @@ export default function AppShowcase() {
             <div className="flex items-center gap-2">
               <div className="flex items-center gap-2">
                 <div className="h-10 w-10 rounded-xl overflow-hidden bg-white">
-                  <Image src="/logo.png" alt="App Logo" width={200} height={200} className="object-cover" />
+                  {/* <Image src="/logo.png" alt="App Logo" width={200} height={200} className="object-cover" /> */}
                 </div>
                 <span className="font-medium text-lg text-gray-800">AppStore</span>
               </div>
-            </div>
-            <div className="text-sm text-gray-500">
-              © {new Date().getFullYear()} Primewalls @2025. All rights reserved.
             </div>
           </div>
         </div>
