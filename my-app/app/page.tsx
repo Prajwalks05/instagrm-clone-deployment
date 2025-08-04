@@ -22,11 +22,10 @@ export default function AppShowcase() {
       <header className="sticky top-0 z-10 backdrop-blur-lg bg-white/80 border-b border-gray-100">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            {/* Removed logo */}
             <span className="font-medium text-lg">AppStore</span>
           </div>
           <nav>
-            <ul className="flex gap-6">{/* Removed About link */}</ul>
+            <ul className="flex gap-6"></ul>
           </nav>
         </div>
       </header>
@@ -46,7 +45,7 @@ export default function AppShowcase() {
             </div>
             <p className="text-lg text-gray-600 mb-8">
               Experience the next generation of mobile applications with our innovative solution. Designed with user
-              experience in mind, our app delivers exceptional performance and stunning visuals similiar to Instagram
+              experience in mind, our app delivers exceptional performance and stunning visuals similar to Instagram.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -84,7 +83,7 @@ export default function AppShowcase() {
             </div>
           </div>
           <h2 className="text-3xl font-bold mb-4">Ready to Experience the App?</h2>
-          <h2 className="text-3xl font-bold mb-4">Note : This is not a real Instagram app it is a FLutter clone</h2>
+          <h2 className="text-3xl font-bold mb-4">Note : This is not a real Instagram app it is a Flutter clone</h2>
         </div>
       </section>
 
@@ -94,9 +93,7 @@ export default function AppShowcase() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center gap-2">
               <div className="flex items-center gap-2">
-                <div className="h-10 w-10 rounded-xl overflow-hidden bg-white">
-                  {/* <Image src="/logo.png" alt="App Logo" width={200} height={200} className="object-cover" /> */}
-                </div>
+                <div className="h-10 w-10 rounded-xl overflow-hidden bg-white"></div>
                 <span className="font-medium text-lg text-gray-800">AppStore</span>
               </div>
             </div>
